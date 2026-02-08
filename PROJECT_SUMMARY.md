@@ -125,8 +125,7 @@ Matches expected order from prompt:
 ```
 NoShowModel/
 ├── .venv/                          # Python 3.12 virtual environment
-├── main.py                         # Main training pipeline
-├── verify.py                       # Statistics verification script
+├── main.py                         # Main training
 ├── README.md                       # Comprehensive documentation
 ├── REBUILD_PROMPT.md              # Original requirements
 ├── data/
@@ -191,12 +190,6 @@ python scripts/analyze_neighborhoods.py
 python scripts/predict.py
 ```
 
-### Verify statistics:
-
-```bash
-python verify.py
-```
-
 ## ✨ Success Criteria Met
 
 - ✅ Model AUC > 0.74 (achieved 0.7498)
@@ -233,7 +226,7 @@ python verify.py
 
 ## 🎉 PROJECT COMPLETE!
 
-All requirements from REBUILD_PROMPT.md have been successfully implemented, tested, and verified. The model achieves the target performance metrics, all key insights have been discovered and validated, and comprehensive visualizations and analysis have been generated.
+All requirements from PseudoProductionPrompt.md.md have been successfully implemented, tested, and verified. The model achieves the target performance metrics, all key insights have been discovered and validated, and comprehensive visualizations and analysis have been generated.
 
 **Date Completed**: February 7, 2026
 **Python Version**: 3.12.12

@@ -1,5 +1,5 @@
 """
-Minimal No-Show Prediction Model - MVP Script
+Original MVP script cleaned for clarity and simplicity.
 Loads data, engineers features, trains XGBoost, and prints scores.
 """
 

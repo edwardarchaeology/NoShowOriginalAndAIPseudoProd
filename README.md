@@ -1,3 +1,7 @@
+# NOTE
+
+This repo was constructed from my original quick investigation script, original_mvp.py, via AI (Github Copilot with Claude Sonnet 4.5). The original script has been included for reference as well as the prompt I used to build out this repo. I performed a quick manual check of the scripts in this AI generated repo to make sure the logic was sound and the output was consistent with my original implementation. The intent was to create a codebase and documentation more similar to what I would build in a production environment rather than a quick EDA + model build for an interview within the 30-45 min timeline I was suggested to stick to.
+
 # No-Show Prediction Model
 
 A comprehensive XGBoost-based machine learning model to predict medical appointment no-shows. This project analyzes ~110K appointments from the Kaggle dataset and achieves **ROC-AUC of 0.75** with full explainability through SHAP analysis.
